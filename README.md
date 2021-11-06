@@ -21,4 +21,9 @@ The approach that I gave to the exercise was through an object-oriented programm
 Although at the beginning I chose to use TDD (Test Driven Development), I did not know very well what libraries to use for use in Python, since I have practiced this type of development in React Native, for this reason, I first began to develop the classes together with their methods and once they were done I began to test them using unit tests to check if they worked as I expected and once I verified that the methods worked correctly I proceeded to occupy them in the main, however, there were two methods that I could not test them, hence I had to test them by trial and error when executing the main.
 
 ## 4. Instructions 
-1. 
+1. Clone the repository to a local folder using the following command: **git clone https://github.com/kjduy/Exercise.git**
+2. Open the project in any text editor, preferably Visual Studio Code.
+3. Once the project is open, open a terminal and go to the address where the project is located, if it is within Visual Studio Code and in the Windows operating system, the key combination **Ctrl + Shift + P** will allow you to create a terminal within the application itself automatically located in the project.
+4. To run the project it is necessary to have python installed and using the following command: **py main.py** will run the application.
+5. There it will ask for the name of the file to perform the test so it will be necessary to type **1stWeek.txt** to test the first example or **2ndWeek.txt** to test the second example.
+6. If you want to test the unit tests it is necessary to move to the test folder, if a Windows OS is managed with the **cd test** command it is enough and there select the test to test, such as: **testFileOperator.py**
