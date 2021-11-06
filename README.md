@@ -26,4 +26,4 @@ Although at the beginning I chose to use TDD (Test Driven Development), I did no
 3. Once the project is open, open a terminal and go to the address where the project is located, if it is within Visual Studio Code and in the Windows operating system, the key combination **Ctrl + Shift + P** will allow you to create a terminal within the application itself automatically located in the project.
 4. To run the project it is necessary to have python installed and using the following command: **py main.py** will run the application.
 5. There it will ask for the name of the file to perform the test so it will be necessary to type **1stWeek.txt** to test the first example or **2ndWeek.txt** to test the second example.
-6. If you want to test the unit tests it is necessary to move to the test folder, if a Windows OS is managed with the **cd test** command it is enough and there select the test to test, such as: **testFileOperator.py**
+6. If you want to test the unit tests it is necessary to move to the test folder, if a Windows OS is managed with the **cd test** command it is enough and there select the test to test, such as: **py testFileOperator.py**
